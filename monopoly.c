@@ -608,8 +608,8 @@ void CheckProperty (int totalPlayers, int i, Property* BoardPtr, int die1, int d
 			DrawCard(totalPlayers, PlayerPtr, i, BoardPtr); //total player number needed for some specific chance/community chest cards
 		}	
 	else if ((BoardPtr[PlayerPtr[i].boardPosition].price) < 0) { //price less than 0 means its a tax
-			printf("You need to pay $%d\n\n", abs(BoardPtr->price));
-			PlayerPtr[i].money += BoardPtr->price;
+			printf("You need to pay $%d\n\n", abs(BoardPtr[PlayerPtr[i].boardPosition].price));
+			PlayerPtr[i].money += BoardPtr[PlayerPtr[i].boardPosition].price;
 			printf("Your remaining money: $%d\n\n", PlayerPtr[i].money);
 		}
 	else {
