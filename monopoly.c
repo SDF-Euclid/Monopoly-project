@@ -11,7 +11,7 @@
 #include "boardStruct.c" //include the functions regarding all the values for the board squares
 #include "card.h" //includes the community chest and chance cards 
 #include "pieceArt.c" //piece ascii art included in another file 
-#include "boardArt.c" //board ascii art included in another file
+//#include "boardArt.c" //board ascii art included in another file
 
 //Global Variables
 //const int NUMBER_OF_SQUARES = 41;
