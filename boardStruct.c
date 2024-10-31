@@ -4,7 +4,7 @@
 #include <string.h>
 
 //other files to include
-#include "BoardStruct.h"
+#include "boardStruct.h"
 
 //prototypes
 void Assign ();	
@@ -260,7 +260,7 @@ void Assign (Property* Board) {
 	Board[14].drawCard = 0;	
 	
 	strcpy(Board[15].name, "Pennsylvania Railroad");
-	strcpy(Board[15].color, "Railroad");
+	strcpy(Board[15].color, "");
 	Board[15].price = 200;
 	Board[15].sellValue = 100;
 	Board[15].boardNum = 15;
@@ -428,7 +428,7 @@ void Assign (Property* Board) {
 	Board[24].drawCard = 0;
 
 	strcpy(Board[25].name, "B. & O. Railroad");
-	strcpy(Board[25].color, "Railroad");
+	strcpy(Board[25].color, "");
 	Board[25].price = 200;
 	Board[25].sellValue = 100;
 	Board[25].boardNum = 25;
@@ -597,7 +597,7 @@ void Assign (Property* Board) {
 	Board[34].drawCard = 0;
 
 	strcpy(Board[35].name, "Short Line Railroad");
-	strcpy(Board[35].color, "Railroad");
+	strcpy(Board[35].color, "");
 	Board[35].price = 200;
 	Board[35].sellValue = 100;
 	Board[35].boardNum = 35;
